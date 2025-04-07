@@ -53,6 +53,19 @@ For brevity, we will denote **Grphs** by **G**.
 
 <img src="images/CategoriesDiagram.png" alt="Table" width="400"/>
 
+**The Categories of Graphs vs The Category of Sets**
+
+**The Lawvere axioms for Sets**
+- (L1) **Sets** has Limits (Colimits).
+- (L2) **Sets** has exponentiation with evaluation.
+- (L3) **Sets** has a subobject classifier.
+- (L4) **Sets** has a natural number object.
+- (L5) **Sets** has the Axiom of Choice.
+- (L6) The subobject classifier in **Sets** is two valued.
+
+
+<img src="images/table1.png" alt="Table" width="650"/>
+
    
 
 
