@@ -89,6 +89,8 @@ For brevity, we will denote **Grphs** by **G**.
 
 **Proposition 6.** **SiLlStG** does not satisfy any of the axioms of the **Sets**.
 
+We have that, except for **SiLlStG**, all categories satisfy (L1) and (L4), do not satisfy (L5) and (L6), and differ in the axioms (L2) and (L3). 
+
 ## **G**,  **SiG**, **SiLlG**, **StG**, and **SiStG** have Limits and Colimits
 
 Limits and colimits exist by the existence of a
@@ -97,14 +99,25 @@ Limits and colimits exist by the existence of a
 - products/coproducts and
 - equalizers/coequalizers $\sim$ pullback/pushouts.
 
-For **G**, **SiG** and **SiLlG**
+For **G**, **SiG** and **SiLlG** the terminal object denoted by $\hat{1}$ is the single vertex:
 
-For **StG** and **SiStG**
+<img src="images/TerminalObjectA.png" alt="Table" width="100"/>
+
+For **StG** and **SiStG** the terminal object is one vertex and one loop:
+
+<img src="images/TerminalObjectB.jpeg" alt="Table" width="200"/>
 
 **SiLlStG** does not have terminal object.
 
+*Proof:* 
 
+**($\times$) Products/ ($+$) Coproducts**
 
+**Pullback/ Pushouts**
+
+## (L2) Exponentiation with Evaluation
+
+## (L3) Subobject Classifier
 
 <img src="images/table1.png" alt="Table" width="650"/>
 
