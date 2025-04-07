@@ -37,4 +37,18 @@ Other common restriction is a graph without loops, that we will call a **looples
 
 The categories that we can define are a special type, they are concrete categories...
 
+**Definition 4** (Concrete Categories) Concrete categories are categories whose objects are sets with structure and whose morphisms are functions that preserve that structure.
+
+We have six concrete categories of graphs
+
+1. **Grphs** The Category of Conceptual Graphs where the objects are **conceptual graphs** and the morphisms are *conceptual graph morphisms*.
+2. **SiGrphs** The Category of  Simple Graphs where the objects are **simple graphs** and the morphisms are *conceptual graph morphisms*.
+3. **SiLlGrphs** The Category of  Simple Loopless Graphs where the objects are **simple graphs without loops** and the morphisms are *conceptual graph morphisms*.
+4. **StGrphs** The Category of Conceptual Graphs with Strict Morphisms where the objects are **conceptual graphs** and the morphisms are *strict graph morphisms*.
+5. **SiStGrphs** The Category of  Simple Graphs with Strict Morphisms where the objects are **simple graphs** and the morphisms are *strict graph morphisms*.
+6. **SiLlStGrphs** The Category of  Simple Loopless Graphs with Strict Morphisms where the objects are **simple graphs without loops** and the morphisms are *strict graph morphisms*.
+   
+
+
+
 
