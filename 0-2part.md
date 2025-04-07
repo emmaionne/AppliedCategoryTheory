@@ -47,6 +47,12 @@ We have six concrete categories of graphs
 4. **StGrphs** The Category of Conceptual Graphs with Strict Morphisms where the objects are **conceptual graphs** and the morphisms are *strict graph morphisms*.
 5. **SiStGrphs** The Category of  Simple Graphs with Strict Morphisms where the objects are **simple graphs** and the morphisms are *strict graph morphisms*.
 6. **SiLlStGrphs** The Category of  Simple Loopless Graphs with Strict Morphisms where the objects are **simple graphs without loops** and the morphisms are *strict graph morphisms*.
+
+
+For brevity, we will denote **Grphs** by **G**. 
+
+<img src="images/CategoriesDiagram.png" alt="Table" width="400"/>
+
    
 
 
