@@ -19,14 +19,22 @@ The set of parts is created by joining the set of vertices and the set of edges.
 
 $\partial_H(f_P(e))=f_V(x) \sim f_V(y)$ whenever $\partial_G(e) = x \sim y$ for all $e \in P(G)$, $x,y \in V(G)$.
 
-<img src="images/table1.png" alt="Table" width="650"/>
+<img src="images/grapHomo.png" alt="Table" width="400"/>
 
-This definition allows a graph morphism to map and edge to a vertex as long as the incidence of the edges are preserved. 
+This definition allows a graph morphism to map an edge to a vertex as long as the incidence of the edges are preserved. 
 When can I map an edge to a vertex, in such a way that the condition of incidence is preserved? There are two ways
 
 1. an edge that is a loop maps to a vertex
 2. an non loop edge to a vertex, implies to send the both vertices in the same vertex.
 
+**Definition 3** (Strict Homomorphism). Let $G$ and $H$ be conceptual graphs. A strict graph (homo)morphism $f:G \rightarrow H$ is a graph morphism such that **the strict condition** holds: for all edges $e \in E(G), f_P(e) \in E(H)$. 
 
+This definition only allows mapping edges to edges, not vertices, or, we can say that strict morphisms map an edge part to a strict edge part.
+
+We have other types of graphs. The graphs restricted to allow at most one edge between any two vertices and at most one loop, we will call **simple graph**. This is the incidence map in injective. (**example**)
+
+Other common restriction is a graph without loops, that we will call a **loopless graph**.
+
+The categories that we can define are a special type, they are concrete categories...
 
 
