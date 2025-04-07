@@ -27,7 +27,9 @@ When can I map an edge to a vertex, in such a way that the condition of incidenc
 1. an edge that is a loop maps to a vertex
 2. an non loop edge to a vertex, implies to send the both vertices in the same vertex.
 
-**Definition 3** (Strict Homomorphism). Let $G$ and $H$ be conceptual graphs. A strict graph (homo)morphism $f:G \rightarrow H$ is a graph morphism such that **the strict condition** holds: for all edges $e \in E(G), f_P(e) \in E(H)$. 
+**Definition 3** (Strict Homomorphism). Let $G$ and $H$ be conceptual graphs. A strict graph (homo)morphism $f:G \rightarrow H$ is a graph morphism such that **the strict condition holds**: 
+
+- for all edges $e \in E(G), f_P(e) \in E(H)$. 
 
 This definition only allows mapping edges to edges, not vertices, or, we can say that strict morphisms map an edge part to a strict edge part.
 
@@ -41,12 +43,24 @@ The categories that we can define are a special type, they are concrete categori
 
 We have six concrete categories of graphs
 
-1. **Grphs** The Category of Conceptual Graphs where the objects are **conceptual graphs** and the morphisms are *conceptual graph morphisms*.
-2. **SiGrphs** The Category of  Simple Graphs where the objects are **simple graphs** and the morphisms are *conceptual graph morphisms*.
-3. **SiLlGrphs** The Category of  Simple Loopless Graphs where the objects are **simple graphs without loops** and the morphisms are *conceptual graph morphisms*.
-4. **StGrphs** The Category of Conceptual Graphs with Strict Morphisms where the objects are **conceptual graphs** and the morphisms are *strict graph morphisms*.
-5. **SiStGrphs** The Category of  Simple Graphs with Strict Morphisms where the objects are **simple graphs** and the morphisms are *strict graph morphisms*.
-6. **SiLlStGrphs** The Category of  Simple Loopless Graphs with Strict Morphisms where the objects are **simple graphs without loops** and the morphisms are *strict graph morphisms*.
+1. **Grphs** The Category of Conceptual Graphs where
+   - the objects are **conceptual graphs** and
+   - the morphisms are *conceptual graph morphisms*.
+2. **SiGrphs** The Category of  Simple Graphs where
+   - the objects are **simple graphs** and
+   - the morphisms are *conceptual graph morphisms*.
+3. **SiLlGrphs** The Category of  Simple Loopless Graphs where
+   - the objects are **simple graphs without loops** and
+   - the morphisms are *conceptual graph morphisms*.
+4. **StGrphs** The Category of Conceptual Graphs with Strict Morphisms where
+   - the objects are **conceptual graphs** and
+   - the morphisms are *strict graph morphisms*.
+5. **SiStGrphs** The Category of  Simple Graphs with Strict Morphisms where
+    - the objects are **simple graphs** and
+    - the morphisms are *strict graph morphisms*.
+6. **SiLlStGrphs** The Category of  Simple Loopless Graphs with Strict Morphisms where
+    - the objects are **simple graphs without loops** and
+    - the morphisms are *strict graph morphisms*.
 
 
 For brevity, we will denote **Grphs** by **G**. 
@@ -62,6 +76,34 @@ For brevity, we will denote **Grphs** by **G**.
 - (L4) **Sets** has a natural number object.
 - (L5) **Sets** has the Axiom of Choice.
 - (L6) The subobject classifier in **Sets** is two valued.
+
+**Proposition 1.** **G** satisfies axioms (L1), (L3), and (L4) and does not satisfy axioms (L2), (L5), and (L6). 
+
+**Proposition 2.** **SiG** satisfies axioms (L1), (L3), and (L4) and does not satisfy axioms (L2), (L5), and (L6). 
+
+**Proposition 3.** **SiLlG** satisfies axioms (L1), (L2), and (L4) and does not satisfy axioms (L3), (L5), and (L6). 
+
+**Proposition 4.** **StG** satisfies axioms (L1), (L3), and (L4) and does not satisfy axioms (L2), (L5), and (L6). 
+
+**Proposition 5.** **SiStG** satisfies axioms (L1), (L2), and (L4) and does not satisfy axioms (L3), (L5), and (L6). 
+
+**Proposition 6.** **SiLlStG** does not satisfy any of the axioms of the **Sets**.
+
+## **G**,  **SiG**, **SiLlG**, **StG**, and **SiStG** have Limits and Colimits
+
+Limits and colimits exist by the existence of a
+
+- a terminal object,
+- products/coproducts and
+- equalizers/coequalizers $\sim$ pullback/pushouts.
+
+For **G**, **SiG** and **SiLlG**
+
+For **StG** and **SiStG**
+
+**SiLlStG** does not have terminal object.
+
+
 
 
 <img src="images/table1.png" alt="Table" width="650"/>
