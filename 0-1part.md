@@ -16,8 +16,9 @@
 Imagine looking at two drawings side by side: on the left, a small, loopless network with just a few edges; on the right, a more tangled structure—complete with multiple edges linking the same vertices and perhaps a loop or two. While both are "graphs", they look and behave quite differently. The rules governing what counts as an “edge” or a “loop” can vary widely from one definition to another. This ambiguity is why we talk about types of graphs.
 
 <div style="text-align: center;">
-<img src="images/graphs.jpeg"  width="400"/>
+  <img src="images/graphs.jpeg" width="400" style="display: block; margin: 0 auto;" />
 </div>
+
 
 We have a similar ambiguity when we talk about graph morphisms - a way to map one graph into another. While both exmaples represent morphisms, the rules they follow are quite different.  On the left, you see a “strict” morphism that matches each vertex and edge precisely, preserving the structure down to the last detail. On the right, a more relaxed morphism allows edges to “collapse” or be identified in a simpler way—perhaps merging two edges into one if they serve the same role. Both are legitimate ways to interpret “graph morphisms,” yet they impose very different constraints on how graphs can transform.
 
