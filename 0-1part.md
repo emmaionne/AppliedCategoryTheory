@@ -13,7 +13,6 @@
    3.6.
 
 # 1. 
-<p style="text-align: center;">
 Imagine looking at two drawings side by side: on the left, a small, loopless network with just a few edges; on the right, a more tangled structure—complete with multiple edges linking the same vertices and perhaps a loop or two. While both are "graphs", they look and behave quite differently. The rules governing what counts as an “edge” or a “loop” can vary widely from one definition to another. This ambiguity is why we talk about types of graphs.
 
 <div style="text-align: center;">
@@ -39,4 +38,4 @@ At the heart of this perspective is the realization that set axioms provide a co
 These properties might tell us, for instance, whether the category supports an internal notion of a “function space”. For a graph category where this rule holds, we can construct an internal “function space” that represents all morphisms from one graph to another.  Having this structure is tremendously useful when you want to, say, build models of network evolution where the “rules” of transformation can themselves be studied categorically. Conversely, if the rule fails, it tells you that such internal homs do not exist, so you must resort to external, less intrinsic methods to analyze the space of graph mappings. This outcome is not merely a theoretical curiosity—it directly affects how one designs algorithms for network analysis and transformation.
 
 In short, by filtering graph definitions through set axioms, we gain a clear, abstract blueprint of how graphs behave and interact.
-</p>
+
