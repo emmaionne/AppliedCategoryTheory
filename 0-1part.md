@@ -14,4 +14,4 @@
 
 # 1. 
 Imagine looking at two drawings side by side: on the left, a small, loopless network with just a few edges; on the right, a more tangled structure—complete with multiple edges linking the same vertices and perhaps a loop or two. You might label both of these objects as “graphs,” yet they look and behave quite differently. The first picture highlights precisely this: while each example certainly qualifies as a “graph,” the rules governing what counts as an “edge” or a “loop” can vary widely from one definition to another. This ambiguity is why we talk about types of graphs.
-<img src="images/graphs.jped"  width="400"/>
+<img src="images/graphs.jped" alt="Table"  width="400"/>
