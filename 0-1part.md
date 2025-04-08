@@ -15,7 +15,7 @@
 # 1. 
 Imagine looking at two drawings side by side: on the left, a small, loopless network with just a few edges; on the right, a more tangled structure—complete with multiple edges linking the same vertices and perhaps a loop or two. While both are "graphs", they look and behave quite differently. The rules governing what counts as an “edge” or a “loop” can vary widely from one definition to another. This ambiguity is why we talk about types of graphs.
 
-<div style="align: center;">
+<div style="text-align: center;">
 <img src="images/graphs.jpeg"  width="400"/>
 </div>
 
