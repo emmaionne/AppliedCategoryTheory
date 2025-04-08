@@ -27,7 +27,7 @@ At first glance, it may seem that studying nodes and edges directly is enough. B
 
 Why formalize these rules? One reason is that we can bring them under the umbrella of the familiar set-theoretic framework. Each graph type is essentially a set of vertices plus a certain structure/set of rules that go with it. By classifying the ways we treat edges and morphisms, we’re using these set axioms to impose universal properties: do we have products of graphs in this category? Are there exponentials? How do we form subobjects? In effect, we are leveraging the fundamental language of sets to build consistent categories of graphs.
 
-<img src="images/axoioms.jpeg"  width="400"/>
+<img src="images/axioms.jpeg"  width="400"/>
 
 Finally, one might ask: Why bother? The short answer is that this classification opens up a broader toolbox for both theory and applications. When you know exactly which “graph type” and which "morphism type" you are dealing with — whether it’s a simple loopless graph or a general graph with flexible morphisms — you gain clarity about what kind of constructions and transformations are valid. This in turn leads to powerful insights in modeling complex systems: from simplifying a transportation network by merging parallel routes (a more relaxed morphism) to analyzing a strict hierarchy of relationships (a strict morphism). By understanding the deeper logic that emerges from set axioms and universal constructions, you not only unify different graph definitions under one conceptual roof but also enable the transfer of results across seemingly disparate areas. 
 
