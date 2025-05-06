@@ -115,6 +115,12 @@ For **StG** and **SiStG** the terminal object is one vertex and one loop:
 
 **Pullback/ Pushouts**
 
+What do pullbacks and pushouts mean in the category of graphs? How can we understand these concepts when we specialize to graphs?
+
+In the example, we have the pushout $P'$ of $f$ and $g$:
+
+<img src="images/PushoutExample.png" alt="Table" width="700"/>
+
 ## (L2) Exponentiation with Evaluation
 
 ## (L3) Subobject Classifier
