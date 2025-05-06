@@ -125,6 +125,15 @@ In the example, we have the pushout $P'$ of $f$ and $g$:
 
 ## (L3) Subobject Classifier
 
+<img src="images/SubODiagram.png" alt="Table" width="200"/>
+
+The subobject classifier for **G** and **SiG** is the graph denoted by $\Omega$
+
+<img src="images/SubobjectGSiG.png" alt="Table" width="300"/>
+
+
+**In summary**
+
 <img src="images/table1.png" alt="Table" width="650"/>
 
    
