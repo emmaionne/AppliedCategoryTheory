@@ -2,8 +2,7 @@
 **What is a conceptual Graph?**
 
 **Definition 1** (Conceptual Graph). A conceptual graph $G$ consist of $G=(P(G), V(G); \partial_G:P(G) \rightarrow V(G)\times V(G), \iota_G: V(G) \hookrightarrow P(G) )$ where 
-- <span style="color: BlueViolet;">\( P(G) \)</span> is the set of parts of \( G \).
-
+- <span style="color: BlueViolet;">$P(G)$ </span> is the set of parts of $G$,
 - $V(G)$ is the set of vertices of the graph $G$,
 - $V(G) \times V(G)$ is the set of unordered pairs of vertices of $G$,
 - $\partial_G$ is the incidence map and $\iota_G$ is the inclusion map of the vertex set into the part set.
