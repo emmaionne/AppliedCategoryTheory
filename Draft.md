@@ -10,7 +10,7 @@ Imagine looking at two drawings side by side: on the left, a small, loopless net
 </div>
 
 
-We have a similar ambiguity when we talk about graph morphisms - a way to map one graph into another. While both exmaples represent morphisms, the rules they follow are quite different.  On the left, you see a “strict” morphism that matches each vertex and edge precisely, preserving the structure down to the last detail. On the right, a more relaxed morphism allows edges to “collapse” or be identified in a simpler way—perhaps merging two edges into one if they serve the same role. Both are legitimate ways to interpret “graph morphisms,” yet they impose very different constraints on how graphs can transform.
+We have a similar ambiguity when we talk about graph morphisms - a way to map one graph into another. While both examples represent morphisms, the rules they follow are quite different.  On the left, you see a “strict” morphism that matches each vertex and edge precisely, preserving the structure down to the last detail. On the right, a more relaxed morphism allows edges to “collapse” or be identified in a simpler way—perhaps merging two edges into one if they serve the same role. Both are legitimate ways to interpret “graph morphisms,” yet they impose very different constraints on how graphs can transform.
 
 <img src="images/morphisms2.jpeg"  width="400"/>
 
